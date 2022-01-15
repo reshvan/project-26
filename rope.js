@@ -20,7 +20,7 @@ class rope{
 		strokeWeight(2);
 
 		//WRITE THE CORRECT CODE TO RENDER A LINE BETWEEN THE TWO BODIES con=Matter.Constraint.create({
-			line(pointB.x,pointB.y,pointA.x,pointA.y)
+			line(pointA.x,pointA.y,pointB.x+this.offset.X,pointB.y)
 
 		
 }
